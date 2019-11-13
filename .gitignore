@@ -17,7 +17,7 @@
 /storage/*
 !/storage/.keep
 
-
+/frontend/node_modules
 /public/assets
 .byebug_history
 
