@@ -1,25 +1,9 @@
-# README
+## Project setup
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+1. Build & run docker images: `docker-compose up`
+2. Create DBs: `docker-compose exec backend rake db:create`
+3. Run migrations: `docker-compose exec backend rake db:migrate`
 
-Things you may want to cover:
+Frontend app will be available under `http://localhost:8080`.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-# rails-vue-blank
+Backend API under `http://localhost:3000`.
